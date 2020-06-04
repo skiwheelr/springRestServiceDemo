@@ -42,17 +42,22 @@ public class TransactionRegistration {
 	}
 	
 	
-	//skipped delete
-	//skipped update
+	// Delete	
+	public String deleteTransaction(String transactionId) {
+		for(int i=0; i<transactionRecords.size(); i++)
+		        {
+		            Transaction stdn = transactionRecords.get(i);
+		            if(stdn.getTransactionId().equals(transactionId)){
+		              transactionRecords.remove(i);//update the new record
+		              return "Delete successful";
+		            }
+		        }
+		return "Delete un-successful";
+		}
 	
 	 public List<Transaction> getTransactionRecords() {
 		    return transactionRecords;
 	 } 
 		    
-		   
-	
-	
-	
-	
 	
 }
