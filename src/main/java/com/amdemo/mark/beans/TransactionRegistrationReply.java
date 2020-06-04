@@ -6,6 +6,8 @@ public class TransactionRegistrationReply {
 	String customerId;
 	double amount;
 	String date;
+	
+	String api = "American Express Transaction Service";
 
 	String status;
 	
@@ -46,6 +48,13 @@ public class TransactionRegistrationReply {
 	}
 	public void setStatus(String status) {
 		this.status = status;
+	}
+	
+	public String getApi() {
+		return api;
+	}
+	public void setApi(String welcome) {
+		this.api = welcome;
 	}
 	
 	

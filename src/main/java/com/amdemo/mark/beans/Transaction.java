@@ -8,6 +8,8 @@ public class Transaction {
 	double amount;
 	String date;
 	
+	String api = "American Express Transaction Services";
+	
 	public String getTransactionId() {
 		return transactionId;
 	}
@@ -39,7 +41,12 @@ public class Transaction {
 		this.date = date;
 	}
 	
-	
+	public String getApi() {
+		return api;
+	}
+	public void setApi(String welcome) {
+		this.api = welcome;
+	}
 	
 	
 }
