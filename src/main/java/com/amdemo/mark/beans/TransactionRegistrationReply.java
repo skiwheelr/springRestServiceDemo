@@ -4,7 +4,7 @@ public class TransactionRegistrationReply {
 	String transactionId;
 	String vendor;
 	String customerId;
-	int amount;
+	double amount;
 	String date;
 
 	String status;
@@ -27,11 +27,11 @@ public class TransactionRegistrationReply {
 	public void setCustomerId(String customerId) {
 		this.customerId = customerId;
 	}
-	public int getAmount() {
+	public double getAmount() {
 		return amount;
 	}
-	public void setAmount(int amount) {
-		this.amount = amount;
+	public void setAmount(double d) {
+		this.amount = d;
 	}
 	public String getDate() {
 		return date;

@@ -5,7 +5,7 @@ public class Transaction {
 	String transactionId;
 	String vendor;
 	String customerId;
-	int amount;
+	double amount;
 	String date;
 	
 	public String getTransactionId() {
@@ -26,7 +26,7 @@ public class Transaction {
 	public void setCustomerId(String customerId) {
 		this.customerId = customerId;
 	}
-	public int getAmount() {
+	public double getAmount() {
 		return amount;
 	}
 	public void setAmount(int amount) {
