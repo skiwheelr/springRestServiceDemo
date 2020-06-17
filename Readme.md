@@ -14,3 +14,5 @@ https://www.javadevjournal.com/spring/securing-a-restful-web-service-with-spring
 
 Authentication disabled due to token issue.
 Developer recommendation: Build this in GO or Java using PLAY framework. 
+
+https://howtodoinjava.com/spring-boot2/security-rest-basic-auth-example/
